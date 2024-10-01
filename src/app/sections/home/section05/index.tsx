@@ -8,7 +8,7 @@ const Section05 = () => {
         Porque a <span className="text-ber-gray">Be Resolution</span>
       </h2>
 
-      <div className="w-[1300px] flex flex-col space-y-10">
+      <div className="desktop:w-[1300px] flex flex-col space-y-10">
         <div className="bg-white rounded-3xl px-7 py-10  flex flex-row space-x-4">
           <div className="w-1/12 ml-[-81px]">
             <Image

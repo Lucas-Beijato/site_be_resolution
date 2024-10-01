@@ -16,7 +16,7 @@ const CardsSection04 = ({ imgLink, numberToView, text }: { imgLink: string, numb
 const Section04 = () => {
   return (
     <div id="about_us" className="w-full flex flex-col justify-center items-center bg-ber-gray pt-24 pb-24">
-      <div className="w-[1300px] flex flex-col justify-center items-center space-y-10">
+      <div className="desktop:w-[1300px] flex flex-col justify-center items-center space-y-10">
         <h2 className="font-extrabold text-[42px] text-white">
           Conheça a <span className="text-ber-green">Be Resolution</span>
         </h2>
