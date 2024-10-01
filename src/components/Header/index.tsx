@@ -47,7 +47,9 @@ const Header = () => {
           </Menubar>
         </div>
         <div className="w-1/3 flex flex-col justify-center items-end">
-          <Custom_Button.Green>ENTRE EM CONTATO</Custom_Button.Green>
+          <Link href={"/#contact"}>
+            <Custom_Button.Green>ENTRE EM CONTATO</Custom_Button.Green>
+          </Link>
         </div>
       </div>
 
@@ -64,7 +66,7 @@ const Header = () => {
           />
         </div>
         <div className="w-1/2 flex flex-col justify-center items-end">
-          <MenuDialog/>
+          <MenuDialog />
         </div>
       </div>
     </nav>
