@@ -17,7 +17,7 @@ const MenuDialog = () => {
       <DialogTrigger>
         <HamburgerMenuIcon className="text-white w-6 h-6" />
       </DialogTrigger>
-      <DialogContent className="bg-ber-gray border-none text-white">
+      <DialogContent className="bg-ber-gray border-none text-white w-screen">
         <DialogHeader>
           <DialogTitle>Be Resolution</DialogTitle>
           <DialogDescription>Software</DialogDescription>

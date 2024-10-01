@@ -86,14 +86,6 @@ html {
   background: #FCB817;
 }
 
-.responsive-desk {
-  @apply hidden
-}
-
-.responsive-mob {
-  @apply hidden
-}
-
 @media screen and (min-width: 1300px) {
   .responsive-desk {
       @apply flex

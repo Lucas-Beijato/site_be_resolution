@@ -24,11 +24,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br" suppressHydrationWarning>
       <body className={cn(
-          "pt-24 min-h-screen bg-background font-sans antialiased",
+          "pt-24 w-screen flex flex-col bg-background font-sans antialiased",
           fontSans.variable
         )}>
           <Header/>
-          {children}
+            {children}
           <Footer/>
         </body>
     </html>

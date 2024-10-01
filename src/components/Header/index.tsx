@@ -12,9 +12,9 @@ const Custom_Separator = () => {
 
 const Header = () => {
   return (
-    <nav className="w-full h-24 bg-ber-gray flex justify-center items-center fixed top-0 z-50">
+    <nav className="w-screen h-24 bg-ber-gray flex justify-center items-center fixed top-0 z-50">
       {/* Desktop Header */}
-      <div className="responsive-desk w-site-view flex flex-row justify-between items-center my-6 px-3">
+      <div className="smartphone-p:hidden desktop:flex flex-row justify-between items-center my-6 px-3">
         <div className="w-1/3 flex flex-col justify-center items-start">
           <Image
             className="w-auto h-auto"
@@ -54,7 +54,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Header */}
-      <div className="responsive-mob w-site-view flex flex-row justify-between items-center my-6 px-3">
+      <div className="smartphone-p:flex desktop:hidden flex-row justify-between w-screen items-center my-6 px-4">
         <div className="w-1/2 flex flex-col justify-center items-start">
           <Image
             className="w-auto h-auto"

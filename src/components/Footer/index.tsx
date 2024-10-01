@@ -5,7 +5,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-ber-gray w-full flex flex-col py-16 justify-center items-center text-white">
-      <div className="w-[1300px] flex flex-row justify-center items-center">
+      <div className="smartphone-p:flex-col xl:flex-row flex w-[1300px] justify-center items-center">
+        
         <div className="w-1/3 flex flex-col justify-center items-center">
           <Link href={"/"}>
             <Image
@@ -75,6 +76,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
       </div>
     </footer>
   );
