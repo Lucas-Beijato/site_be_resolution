@@ -28,7 +28,7 @@ const CardSection03 = ({
 
 const Section03 = () => {
   return (
-    <div className="w-full bg-ber-green">
+    <div id="activities" className="w-full bg-ber-green">
       <div className="w-full flex flex-col justify-center items-center bg-[url('/bg_section_03.png')] bg-contain bg-no-repeat pt-24 pb-24">
         <div className="w-[1300px] flex flex-col space-y-10">
           <h1 className="font-bold text-[42px] text-center text-white">

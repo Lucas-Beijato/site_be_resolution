@@ -25,13 +25,13 @@ const MenuDialog = () => {
 
         <div className="flex flex-col items-start">
           <DialogClose asChild>
-            <Link href={"/"}>
+            <Link href={"/#home"}>
               <Custom_Button.Header>INÍCIO</Custom_Button.Header>
             </Link>
           </DialogClose>
 
           <DialogClose asChild>
-            <Link href={"/"}>
+            <Link href={"/#activities"}>
               <Custom_Button.Header>ATIVIDADES</Custom_Button.Header>
             </Link>
           </DialogClose>
@@ -43,12 +43,11 @@ const MenuDialog = () => {
           </DialogClose>
 
           <DialogClose asChild>
-            <Link href={"/"}>
+            <Link href={"/#about_us"}>
               <Custom_Button.Header>SOBRE NÓS</Custom_Button.Header>
             </Link>
           </DialogClose>
         </div>
-        
       </DialogContent>
     </Dialog>
   );

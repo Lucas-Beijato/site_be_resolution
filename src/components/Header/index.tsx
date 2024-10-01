@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 import { Menubar, MenubarMenu } from "@/components/ui/menubar";
 import { Separator } from "../ui/separator";
@@ -27,13 +28,21 @@ const Header = () => {
         <div className="w-1/3 flex flex-col justify-center items-center">
           <Menubar className="bg-transparent border-none">
             <MenubarMenu>
-              <Custom_Button.Header>INÍCIO</Custom_Button.Header>
+              <Link href={"/#home"}>
+                <Custom_Button.Header>INÍCIO</Custom_Button.Header>
+              </Link>
               <Custom_Separator />
-              <Custom_Button.Header>ATIVIDADES</Custom_Button.Header>
+              <Link href={"/#activities"}>
+                <Custom_Button.Header>ATIVIDADES</Custom_Button.Header>
+              </Link>
               <Custom_Separator />
-              <Custom_Button.Header>SOLUÇÕES</Custom_Button.Header>
+              <Link href={""}>
+                <Custom_Button.Header>SOLUÇÕES</Custom_Button.Header>
+              </Link>
               <Custom_Separator />
-              <Custom_Button.Header>SOBRE NÓS</Custom_Button.Header>
+              <Link href={"/#about_us"}>
+                <Custom_Button.Header>SOBRE NÓS</Custom_Button.Header>
+              </Link>
             </MenubarMenu>
           </Menubar>
         </div>
