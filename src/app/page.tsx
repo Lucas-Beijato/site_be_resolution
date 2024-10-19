@@ -6,8 +6,8 @@ export default function Page() {
       <Sections.S1/>
       <Sections.S2/>
       <Sections.S3/>
-      {/* <Sections.S4/>
-      {/* <Sections.S5/> */}
+      <Sections.S4/>
+      <Sections.S5/>
       {/* <Sections.S6/> */}
     </main>
   );

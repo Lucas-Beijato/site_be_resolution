@@ -17,10 +17,10 @@ const Section04 = () => {
   return (
     <div id="about_us" className="w-full flex flex-col justify-center items-center bg-ber-gray pt-24 pb-24">
       <div className="desktop:w-[1300px] flex flex-col justify-center items-center space-y-10">
-        <h2 className="font-extrabold text-[42px] text-white">
+        <h2 className="font-extrabold text-[42px] text-white smartphone-p:text-center">
           Conheça a <span className="text-ber-green">Be Resolution</span>
         </h2>
-        <div className="flex flex-col justify-center items-center space-y-4 text-white text-[18px]">
+        <div className="flex flex-col smartphone-p:p-4 justify-center items-center space-y-4 text-white text-[18px]">
           <p>
             Nosso negócio é sistema, somos engenheiros de software, analista de
             sistema, programador, administrador de sistema, contador, sim, somos
@@ -53,7 +53,7 @@ const Section04 = () => {
             <Custom_Button.Green>Conheça Mais</Custom_Button.Green>
         </Link>
 
-        <div className="flex flex-row space-x-36">
+        <div className="flex smartphone-p:flex-col smartphone-p:space-y-14 desktop:space-y-0 desktop:flex-row desktop:space-x-36">
             <CardsSection04 imgLink={"/img_01_section_04.png"} numberToView={"29"} text={"ANOS DE EXPERIÊNCIA"}/>
             <CardsSection04 imgLink={"/img_02_section_04.png"} numberToView={"+750"} text={"CLIENTES"}/>
             <CardsSection04 imgLink={"/img_03_section_04.png"} numberToView={"25"} text={"COLABORADORES"}/>
