@@ -14,14 +14,14 @@ const Header = () => {
   return (
     <nav className="w-screen h-24 bg-ber-gray flex justify-center items-center fixed top-0 z-50">
       {/* Desktop Header */}
-      <div className="smartphone-p:hidden desktop:flex flex-row justify-between items-center my-6 px-3">
+      <div className="smartphone-p:hidden desktop:flex desktop:w-[1300px] flex-row justify-between items-center my-6 px-3">
         <div className="w-1/3 flex flex-col justify-center items-start">
           <Image
-            className="w-auto h-auto"
+            // className="w-auto h-auto"
             src={"/logo-dropshadow.svg"}
             alt={"Logo Be Resolution"}
-            width={0}
-            height={0}
+            width={276}
+            height={48}
             priority
           />
         </div>

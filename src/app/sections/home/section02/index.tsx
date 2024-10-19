@@ -15,7 +15,7 @@ const CardFrame = ({
   btnLink: string;
 }) => {
   return (
-    <div className="flex flex-row desktop:flex-row smartphone-p:flex-col border-2 bg-white border-ber-green rounded-3xl p-8 drop-shadow-md">
+    <div className="flex desktop:flex-row smartphone-p:flex-col border-2 bg-white border-ber-green rounded-3xl p-8 drop-shadow-md">
       <div className="desktop:w-3/12 smartphone-p:w-full">
         <Image src={icon} alt={"card icon"} width={"64"} height={"64"} />
       </div>
@@ -35,7 +35,7 @@ const CardFrame = ({
 const Section02 = () => {
   return (
     <div id="porque_nosso_erp" className="bg-[url('/bg_section_02.png')] bg-contain bg-no-repeat flex justify-center items-center pt-24 pb-24">
-      <div className="desktop:w-[1300px] grid smartphone-p:grid-cols-1 smartphone-p:grid-rows-6 grid-cols-3 grid-rows-2 gap-5 p-4">
+      <div className="desktop:w-[1300px] grid smartphone-p:grid-cols-1 smartphone-p:grid-rows-6 desktop:grid-cols-3 desktop:grid-rows-2 gap-5 p-4">
         
         <div className="p-4 flex flex-col space-y-6">
           <Image
