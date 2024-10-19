@@ -10,7 +10,7 @@ const Section01 = () => {
     >
       <Writer />
 
-      <h2 className="font-bold text-[24px] text-white text-center">
+      <h2 className="font-bold smartphone-p:text-lg desktop:text-[24px] text-[24px] text-white text-center">
         Somos um time de profissionais apaixonados por <br /> tecnologia e
         aprimoramento de sistemas.
       </h2>

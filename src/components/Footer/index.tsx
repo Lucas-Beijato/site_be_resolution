@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="w-1/3 flex flex-col justify-center items-center">
           <Link href={"/"}>
             <Image
-              className="w-auto h-auto"
+              className="desktop:w-auto desktop:h-auto"
               src={"/logo-dropshadow.svg"}
               alt={"Be Resolution Logo"}
               width={0}

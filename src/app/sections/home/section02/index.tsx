@@ -15,11 +15,11 @@ const CardFrame = ({
   btnLink: string;
 }) => {
   return (
-    <div className="flex flex-row border-2 bg-white border-ber-green rounded-3xl p-8 drop-shadow-md">
-      <div className="w-3/12">
+    <div className="flex flex-row desktop:flex-row smartphone-p:flex-col border-2 bg-white border-ber-green rounded-3xl p-8 drop-shadow-md">
+      <div className="desktop:w-3/12 smartphone-p:w-full">
         <Image src={icon} alt={"card icon"} width={"64"} height={"64"} />
       </div>
-      <div className="w-7/12 space-y-4">
+      <div className="desktop:w-7/12 space-y-4 smartphone-p:w-full">
         <h3 className="font-bold text-lg text-ber-green">{title}</h3>
         <p className="text-sm font-medium">{text}</p>
         <div>

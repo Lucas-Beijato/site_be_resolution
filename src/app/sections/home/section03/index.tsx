@@ -34,7 +34,7 @@ const Section03 = () => {
           <h1 className="font-bold text-[42px] text-center text-white">
             Atividades
           </h1>
-          <div className="flex flex-row space-x-5 justify-center items-center">
+          <div className="flex desktop:flex-row smartphone-p:flex-col desktop:space-x-5 smartphone-p:space-y-14 smartphone-p:p-4 justify-center items-center">
             <CardSection03
               imgLink={"/industry_img_section_03.png"}
               title={"Indústria"}
