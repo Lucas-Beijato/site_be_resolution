@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Section05Cards = ({ children, urlImage, title }: { children: React.ReactNode, urlImage: string, title: string }) => {
   return (
-    <div className="bg-white rounded-3xl px-7 py-10 flex flex-row space-x-4">
-      <div className="w-1/12 ml-[-81px]">
+    <div className="bg-white flex rounded-3xl desktop:px-7 desktop:py-10 desktop:flex-row desktop:p-0 desktop:space-x-4 desktop:justify-end desktop:items-start smartphone-p:flex-col smartphone-p:p-4 smartphone-p:justify-center smartphone-p:items-center">
+      <div className="desktop:w-1/12 desktop:ml-[-81px] smartphone-p:w-full">
         <Image
           src={urlImage}
           alt={"section image"}
@@ -12,7 +12,7 @@ const Section05Cards = ({ children, urlImage, title }: { children: React.ReactNo
           height={121}
         />
       </div>
-      <div className="flex flex-col space-y-4 w-11/12">
+      <div className="flex flex-col smartphone-p:w-full space-y-4 w-11/12">
         <h2 className="text-[32px] font-bold ">{title}</h2>
         {children}
       </div>
