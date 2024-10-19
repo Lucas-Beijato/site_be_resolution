@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Section01 = () => {
   return (
-    <div id="first" className="flex flex-col space-y-10 smartphone-p:h-[550px] justify-center items-center w-full desktop:h-[703px] bg-[url('/home_banner.png')] bg-no-repeat bg-cover"
+    <div id="first" className="flex flex-col space-y-10 smartphone-p:h-[550px] smartphone-p:p-4 desktop:p-0 justify-center items-center w-full desktop:h-[703px] bg-[url('/home_banner.png')] bg-no-repeat bg-cover"
     >
       <Writer />
 

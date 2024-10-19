@@ -65,6 +65,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+*:focus {
+  outline: none;
+}
 
 /* width */
 ::-webkit-scrollbar {
